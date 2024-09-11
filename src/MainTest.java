@@ -8,18 +8,19 @@ class MainTest {
 
     @org.junit.jupiter.api.Test
     void add() {
-        assertEquals(12, Main.add(5,7));
+        assertEquals(12, Main.add(5, 7));
     }
 
     @org.junit.jupiter.api.Test
     void addTwo() {
-        assertEquals(24, Main.add(5,7,6,6));
+        assertEquals(24, Main.add(5, 7, 6, 6));
     }
 
     @org.junit.jupiter.api.Test
     void morningGreeting() {
         assertEquals("早上好, Toby Fox!", Main.morningGreeting("Toby Fox"));
     }
+
 
     @org.junit.jupiter.api.Test
     void afternoonGreeting() {
@@ -55,6 +56,5 @@ class MainTest {
     void roundNegativeValueToNearestIntegerTwo() {
         assertEquals(-9, Main.roundNegativeValueToNearestInteger(-8.5));
     }
-
-
 }
+
