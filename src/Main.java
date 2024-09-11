@@ -42,7 +42,7 @@ public class Main {
 
     // 6. half
     public static double half(int a) {
-        return (a/2);
+        return (a/2.0);
     }
 
     // 7. roundPositiveValueToNearestInteger
